@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL3F8PeB229"
-#define BLYNK_TEMPLATE_NAME "Temp Humidity IR"
-#define BLYNK_AUTH_TOKEN "XQYjDNMxRESKQHbNPHNBGH7OSvxvaU29"
+#define BLYNK_TEMPLATE_ID "Add you Blynk Template ID"
+#define BLYNK_TEMPLATE_NAME "Add your Blynk template name"
+#define BLYNK_AUTH_TOKEN "Your auth token"
 
 #include <BlynkSimpleEsp8266.h>
 #include <ESP8266WiFi.h>
@@ -9,9 +9,9 @@
 #include <ESP8266HTTPClient.h>
 
 // WiFi & Blynk Credentials
-char ssid[] = "Le gareeb";
-char pass[] = "legareeb";
-char auth[] = "XQYjDNMxRESKQHbNPHNBGH7OSvxvaU29";
+char ssid[] = "Wifi_Name";
+char pass[] = "Wifi_Password";
+char auth[] = "Blynk_auth_token";
 
 #define DHTPIN D4  
 #define DHTTYPE DHT11
@@ -21,10 +21,10 @@ DHT dht(DHTPIN, DHTTYPE);
 #define LED_ORANGE D3  
 #define LED_YELLOW D1  
 #define LED_BLUE D2  
-
-const char* apiKey = "8e44c20da5a33fc1cf1db3552db646ba";  
-const char* lat = "23.079489415629073";
-const char* lon = "76.85159334409776";  
+//openWeatherMap API
+const char* apiKey = "Your_API_key";  
+const char* lat = "latitude_value";
+const char* lon = "longitude_value";  
 
 String weatherAPI = "http://api.openweathermap.org/data/2.5/weather?lat=" + 
                  String(lat) + "&lon=" + String(lon) + 
