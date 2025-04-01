@@ -24,10 +24,10 @@ This project is a Wi-Fi-enabled **temperature, humidity, and motion monitoring s
 
 ## **Mobile Dashboard & Notifications**
 📱 **Blynk Mobile Dashboard:**
-![Insert Mobile Dashboard Image Here](#)
+![Insert Mobile Dashboard Image Here](dashboard.jpg)
 
 🔔 **Example Notifications:**
-![Insert Notifications Image Here](#)
+![Insert Notifications Image Here](temp_alert.jpg)
 
 🎥 **Project Demo Video:**
 [Insert Video Link Here](#)
