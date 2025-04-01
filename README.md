@@ -20,17 +20,14 @@ This project is a Wi-Fi-enabled **temperature, humidity, and motion monitoring s
 - **Blynk Mobile App** – Custom dashboard for real-time monitoring
 
 ## **Circuit Diagram**
-![Insert Circuit Diagram Here](#)
+Look inside presentation.
 
 ## **Mobile Dashboard & Notifications**
-📱 **Blynk Mobile Dashboard:**
-![Insert Mobile Dashboard Image Here](dashboard.jpg)
-
-🔔 **Example Notifications:**
-![Insert Notifications Image Here](temp_alert.jpg)
+📱 **Blynk Mobile Dashboard &** 🔔 **Example Notifications**
+![Insert Mobile Dashboard Image Here](collage.jpg)
 
 🎥 **Project Demo Video:**
-[Insert Video Link Here](#)
+[Insert Video Link Here](demo_video1.mp4)
 
 ## **Setup & Installation**
 ### **1. Hardware Setup**
